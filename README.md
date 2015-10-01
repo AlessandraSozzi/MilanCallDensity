@@ -15,6 +15,12 @@ It finally creates and save a GIF image **DayCallDensity.GIF**.
 
 * **DayCallDensity.GIF** : This is the result produced by the **CallDensityMap.py**.
 
+* **Transformation/WarmUp.py** : python code to play with shapefiles and analyse the content of the Milan grid shapefile.
+
+* **Transformation/Transformation.py** : set of functions to tranform a grid shapefile from a *UTM32* projection to *WGS84* projection.
+
+* **Transformation/Transformation_test.py** : python code to call the *Transformation* function and reproject a shapefile from a *UTM32* projection to *WGS84* projection.
+
 In order to use this code you need access to the to the [Telecom Italia Big Data Challenge] (www.telecomitalia.com/bigdatachallenge) data.
 
 *NB: The code uses Python 2.7*
